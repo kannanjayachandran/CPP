@@ -17,7 +17,6 @@ int main(void){
   int q = ++c;   // first increment c to c+1 then q = c
   cout<<p<<"\n"
       <<q<<"\n";
-  
 
 return 0;
 }

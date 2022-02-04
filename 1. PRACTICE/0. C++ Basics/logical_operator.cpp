@@ -13,12 +13,14 @@ if (a < b && b > a){
   cout<<"Yes";
 }
 
-// Short circuiting the logical operators.
-// In the and operator if the first expression is false we don't need to evaluate the remaining; 
-//as the final expression is always going to be false.
-// Similarly in the Or operator if the first part is true we don't need to evaluate the remaining part.
-// OR ---> first result : TRUE ----> Short circuiting.
-//AND ----> first result : FALSE ---> Short circuiting.
+/*
+Short circuiting the logical operators.
+In the and operator if the first expression is false we don't need to evaluate the remaining; 
+as the final expression is always going to be false.
+Similarly in the Or operator if the first part is true we don't need to evaluate the remaining part.
+OR ---> first result : TRUE ----> Short circuiting.
+AND ----> first result : FALSE ---> Short circuiting.
+*/
 
   int q = 10;
   bool result = (q>20) && (q++);
