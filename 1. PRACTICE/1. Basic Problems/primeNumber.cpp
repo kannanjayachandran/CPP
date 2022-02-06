@@ -17,12 +17,12 @@ int main(void)
     for (int i = 2; i <= sqrt(num); i++)
     {
         if (num % i == 0){
-            cout<<"Not prime.";
+            cout<<"Not prime.👎";
             flag = 0;
             break;
         }   
     }
-    if (flag == 1) cout<<"Prime number";
+    if (flag == 1) cout<<"Prime number👑";
 
     return 0;
 }

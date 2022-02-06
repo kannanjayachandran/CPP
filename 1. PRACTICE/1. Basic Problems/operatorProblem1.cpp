@@ -8,7 +8,7 @@ int main(void){
     cout<<"yes";
   }
   else {
-    cout<<"NO";
+    cout<<"NO🤪";
   }
 
 return 0;
