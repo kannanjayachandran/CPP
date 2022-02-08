@@ -20,6 +20,8 @@
 
     In the main code we split the number into the required 8 bit chunks.
 
+    0xff = 15*16 + 15
+
     Time complexity : Θ(1) [Under the assumption that we have already done the preprocessing] 
 
 */
