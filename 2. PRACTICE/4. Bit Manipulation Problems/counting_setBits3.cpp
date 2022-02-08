@@ -18,7 +18,7 @@
     This table would take care of numbers from 0 to 255; numbers greater than 
     that would be handled  the main code with the help of this table.
 
-    In the main code we split the number into the required 8 bit chunks.
+    In the main code we split the number into the required 8 bit chunks. Considering int to be 32 bits.
 
     0xff = 15*16 + 15
 
@@ -63,5 +63,6 @@ int count(int arr[], int num)
         num >>= 8;
     }
     // we are doing this 4 times because we are taking the int to be of size 32bits.
+    // num & 255 gives the num.
 return result;
 }
