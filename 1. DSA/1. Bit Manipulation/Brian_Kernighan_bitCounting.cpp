@@ -2,7 +2,8 @@
     Brian Kernighan's Algorithm : For counting the set bits in a number.
 
     When 1 is subtracted from a given number (decimal number); all the bits
-    after last set bit (rightmost set bit); is flipped. (zero becomes one; one becomes zero)
+    after last set bit (rightmost set bit); is flipped.
+    (zero becomes one; one becomes zero) Set bits -> 1
 
     If we Subtract 1 from a number and do bitwise and with the number [num & (num-1)] and execute
     it inside a loop untill the num becomes zero; The loop would be executed the set-bits number of times.
