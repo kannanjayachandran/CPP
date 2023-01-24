@@ -12,7 +12,7 @@ int main(void)
 
 void kbit(int num, int k)
 {
-    if (num & (1 << (k - 1))) cout << "🥳bit is set.";
+    if (num & (1 << k)) cout << "🥳bit is set.";
     else cout << "👎bit is not set.";
 }
 
