@@ -2,9 +2,6 @@
 
 # C++ Programming
 
-![Code style](https://img.shields.io/badge/Language-C++-g.svg)
-![Code style](https://img.shields.io/badge/Code%20Style-Standard-brightgreen.svg)
-![OS](https://img.shields.io/badge/OS-Linux%20%7C%20Windows%20-blue.svg)
 </div>
 
 ## This repository contains the C++ programs I have written
